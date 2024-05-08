@@ -1,6 +1,7 @@
 import ManagerData from "./components/ManagerData";
 import Img2 from "./assets/img2.jpg"
 import './App.css';
+import ListRender from "./components/ListRender";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     </div>
 
     <ManagerData />
+    <ListRender />
     </div>
   );
 }
