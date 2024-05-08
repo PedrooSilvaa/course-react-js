@@ -1,3 +1,4 @@
+import ManagerData from "./components/ManagerData";
 import Img2 from "./assets/img2.jpg"
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <img src={Img2} alt="Leão" />
     </div>
 
+    <ManagerData />
     </div>
   );
 }
