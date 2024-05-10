@@ -2,11 +2,11 @@ import {useState} from 'react'
 
 const ManagerData = () => {
 
-    {/*com variavel o valor não re-renderiza após mudança */}
+    /*com variavel o valor não re-renderiza após mudança */
     let someData = 10;
     console.log(someData);
 
-    {/*dessa forma o valor re-renderiza após mudança */}
+    /*dessa forma o valor re-renderiza após mudança */
     const [number, setNumber] = useState(15);
     console.log(number)
 

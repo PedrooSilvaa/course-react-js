@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const CarDetails = ({brand, km, color, newCar}) => {
     return (

@@ -14,7 +14,7 @@ const ListRender = () => {
         const randomNumber = Math.floor(Math.random() * 4);
 
         setUsers((prevUsers) => {
-            {/* aqui oq for igual ele deleta e oq for diferente ele mantém */}
+            /* aqui oq for igual ele deleta e oq for diferente ele mantém */
             return prevUsers.filter((user) => randomNumber !== user.id)
         })
     }
