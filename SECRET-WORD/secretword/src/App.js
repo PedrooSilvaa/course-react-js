@@ -14,8 +14,8 @@ import GameOver from './components/GameOver';
 
 const stages = [
   {id: 1, name: "start"},
-  {id: 1, name: "game"},
-  {id: 1, name: "end"}
+  {id: 2, name: "game"},
+  {id: 3, name: "end"}
 ]
 
 const guessesQtd = 3;
@@ -108,7 +108,7 @@ function App() {
     }
   }, [guesses])
   
-  // check win codition
+  // check win 
   useEffect(() => {
     const uniqueLetters = [...new Set(letters)];
 
